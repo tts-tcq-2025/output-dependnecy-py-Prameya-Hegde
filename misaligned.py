@@ -4,7 +4,7 @@ def print_color_map():
     minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
     for i, major in enumerate(major_colors):
         for j, minor in enumerate(minor_colors):
-            number_code = i*5+1+j
+            number_code = (i*5)+1+j
             major_color = major
             minor_color = minor
             
