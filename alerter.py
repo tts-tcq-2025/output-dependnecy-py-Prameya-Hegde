@@ -20,7 +20,8 @@ def alert_in_celcius(farenheit):
 
 alert_in_celcius(400.5)
 alert_in_celcius(303.6)
-alert_in_celcius(500)  # This should trigger a failure
-assert alert_failure_count == 1  # This will fail with the current code
+alert_in_celcius(500) 
+assert alert_failure_count == 1 
 print(f'{alert_failure_count} alerts failed.')
 print('All is well (maybe!)')
+
